@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>About Us</h1>
+        <nav>
+            <ul>
+                <li><a href="#mission">Mission</a></li>
+                <li><a href="#vision">Vision</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="mission">
+            <h1>Benefits of AI in agriculture</h1>
+            <p>Until recently, using the words AI and agriculture in the same sentence may have seemed like a strange combination. After all, agriculture has been the backbone of human civilization for millennia, providing sustenance as well as contributing to economic development, while even the most primitive AI only emerged several decades ago. Nevertheless, innovative ideas are being introduced in every industry, and agriculture is no exception. In recent years, the world has witnessed rapid advancements in agricultural technology, revolutionizing farming practices. These innovations are becoming increasingly essential as global challenges such as climate change, population growth together with resource scarcity threaten the sustainability of our food system. Introducing AI solves many challenges and helps to diminish many disadvantages of traditional farming.</p>
+        </section>
+        <section id="vision">
+            <h2>Role of AI in the agriculture information management cycle</h2>
+            <p>Managing agricultural data with AI can be beneficial in many ways:</p>
+
+                <h3>management</h3>
+                Predictive analytics reduces errors in farming processes.
+                
+                <h3>Plant breeding</h3>
+                AI utilized plant growth data to further advise on crops that are more resilient to extreme weather, disease or harmful pests.
+                
+                <h3> and crop health analysis</h3>
+                AI algorithms can analyze the chemical composition of soil samples to determine which nutrients may be lacking. AI can also identify or even predict crop diseases.
+                
+               <h3> Crop feeding</h3>
+                AI in irrigation is useful for identifying optimal patterns and nutrient application times, while predicting the optimal mix of agronomic products.
+                
+                <h3>Harvesting</h3>
+                <p>AI is useful for enhancing crop yields and can even predict the best time to harvest crops</p>
+        </section>
+        <section id="team">
+            <h2>Our Team</h2>
+            <div class="team-member">
+                <img src="nature.jpg.png" alt="Team Member 1">
+                <h1>Detecting disease and pests</h1>
+                <p>As well as detecting soil quality and crop growth, computer vision can detect the presence of pests or diseases. This works by using AI in agriculture projects to scan images to find mold, rot, insects, or other threats to crop health. In conjunction with alert systems, this helps farmers to act quickly in order to exterminate pests or isolate crops to prevent the spread of disease.
+
+                    AI technology in agriculture has been used to detect apple black rot with an accuracy of over 90%. It can also identify insects like flies, bees, moths, etc., with the same degree of accuracy. However, researchers first needed to collect images of these insects to have the necessary size of the training data set to train the algorithm with.</p>
+            </div>
+            <div class="team-member">
+                <img src="animal.png" alt="Team Member 2">
+                <h3>Monitoring livestock health</h3>
+                <p>It may seem easier to detect health problems in livestock than in crops, in fact, it’s particularly challenging. Thankfully, AI for farming can help with this. For example, a company called CattleEye has developed a solution that uses drones, cameras together with computer vision to monitor cattle health remotely. It detects atypical cattle behavior and identifies activities such as birthing.
+
+                    CattleEye uses AI and ML solutions to determine the impact of diet alongside environmental conditions on livestock and provide valuable insights. This knowledge can help farmers improve the well-being of cattle to increase milk production.</p>
+            </div>
+        </section>
+        <section id="contact">
+            <h1>Feedback:-</h1>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+            <p id="responseMessage"></p>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
